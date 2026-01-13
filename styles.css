@@ -5,7 +5,7 @@
   --muted:#c7d2fe;
   --card:#0d1730;
   --border: rgba(255,255,255,.12);
-  --accent:#f59e0b; /* amber */
+  --accent:#22c55e; /* amber */
   --accent-2:#22c55e;
   --shadow: 0 10px 30px rgba(0,0,0,.35);
   --radius: 18px;
@@ -23,6 +23,10 @@ body{
   color:var(--text);
   line-height:1.55;
 }
+body{
+  background: radial-gradient(1200px 600px at 20% 0%, #0f2f1f 0%, #052e16 60%) fixed;
+}
+
 .demo-banner{
   background: linear-gradient(90deg, #7c2d12, #b45309);
   color: #fff7ed;
@@ -370,5 +374,6 @@ h2{font-size:1.7rem; margin:0 0 8px}
   .site-nav a.btn{justify-content:center}
   .site-nav[data-open="true"]{display:flex}
 }
+
 
 
